@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;
+padding: 0;
+}
+.header{
+	background-color: white;
+	height:10vh;
+	padding: 5px 20px
+}
+.header img{
+	float: left;
+}
+.header ul{
+	list-style-type: none;
+	padding:10px 0px;
+	padding-left: 30%;
+	float: left;
+	width: 40%;
+}
+.header ul li{
+	display: inline;
+	padding: 0px 15px;
+	
+}
+.header input{
+float: right;
+	padding: 5px 10px;
+	background-color: transparent;
+	border:none;
+	border:1px solid black;
+	border-radius: 5px;
+	margin-top: 10px
+}
+.header input:hover{
+	background-color: dodgerblue;
+	color:white;
+	border: none;
+}
+.banner{
+	background-image: url("Banner.jpg");
+	height: 90vh;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner .noidung{
+	padding: 20% 10%;
+	color:black;
+	}
+.banner .noidung h1{
+	font-size: 50px;
+	}
+.banner .noidung h3{
+	font-size: 30px;
+	padding: 5px 0px;
+	}
+.banner .noidung input{
+	border:none;
+	padding: 10px 15px;
+	color:gray;
+	margin:20px 10px;
+}
+.banner .noidung .nut1{
+	background-color: dodgerblue;
+	color:white;
+}
+.banner .noidung .nut1:hover{
+	background-color: black;
+}
+.banner .noidung .nut2{
+	background-color: black;
+	color:white;
+}
+.banner .noidung .nut2:hover{
+	background-color:dodgerblue;
+}
+.test {
+	height: 100px;
+	background-color: deepskyblue;
+	color:white;
+	padding: 40px;
+}
+.test h4{
+	float: left;
+	width: 50%;
+	font-size: 25px;
+	padding: 10px;
+}
+.test input{
+	float:right;
+	padding: 10px;
+	border:none;
+	color:black;
+	margin:30px;
+}
+.test input:hover{
+	background-color: black;
+	color:white;}
+.services{
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 10px; 
+}
+.services .item{
+	width: 30%;
+}
+.services .item {
+	width: 25%
+}
+.services .item img{
+
+	width: 100%
+}
+.services .item h1 p{
+	padding: 500px 0px;
+}
+
+.ourteam{
+	background-color: #F1F1F1;
+}
+.ourteam .motatieude{
+	text-align: center;
+	padding:50px 10px;
+}
+.ourteam .motatieude p{
+	padding:10px 0px;
+}
+.ourteam .motatieude hr{
+	width:10%;
+	border:1px solid blue;
+	margin:0 auto;
+	background-color:blue;
+}
+.person{
+	text-align: center;
+	width:25%;
+}
+.manageperson{
+	display: flex;
+	justify-content: space-around;
+}
+.manageperson .person img{
+	width:100%;
+}
+.aboutus{
+	display: flex;
+	padding:5%;
+}
+.aboutus .abouttrai{
+	/*float:left;
+	width: 55%;
+	height: 400px;*/
+	padding-right: 30px;
+}
+.itemaboutus{
+	float: left;
+	width:45%;
+	padding:10px;
+}
+.itemaboutus i{
+	color:blue;
+	float:left;
+	padding: 0 5px;
+	padding-bottom: 40px;
+
+}
